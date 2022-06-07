@@ -1,0 +1,115 @@
+@import url('bootstrap.css');
+@import url('normalize.css');
+@font-face {
+  font-family: 'vazir';
+  src: url('../fonts/vazir.woff2');
+}
+
+
+.container{
+  padding: 0;
+  width: 100%;
+  margin: 0;
+}
+.container > *{
+  width: 800px;
+  height: 6rem;
+}
+.modaled{
+  
+}
+.blurContainer-i{
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.671);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.blurContainer-ii{
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+.header{
+  background-color: #72147e;
+}
+.header > *{
+  color: #fff;
+  list-style: none;
+  width: 16rem;
+  text-align: center;
+}
+.options{
+  background-color: #ffffff;
+  border-bottom: 2px solid rgb(235, 188, 231);
+}
+.options > *:hover{
+  color: rgb(255, 64, 105);
+}
+.options > *{
+  color: rgb(18, 18, 18);
+  list-style: none;
+  width: 16rem;
+  text-align: center;
+}
+.inBtn > img{
+  width: 3rem;
+  height: 3rem;
+}
+.inBtn:active{
+  background: 
+  linear-gradient(rgb(216, 34, 134), rgb(216, 34, 134)) padding-box,
+  linear-gradient(.625turn, rgb(254, 155, 210), rgb(200, 0, 110)) border-box;
+}
+.inBtn{
+  width: 3.8rem;
+  height: 3.8rem;
+  background: 
+  linear-gradient(rgb(255, 52, 164), rgb(255, 52, 164)) padding-box,
+  linear-gradient(.625turn, rgb(255, 193, 227), rgb(241, 0, 133)) border-box;
+border: .3rem solid transparent;
+  display: flex;
+  border-radius: .8rem;
+  justify-content: center;
+  align-items: center;
+  -webkit-border-radius: .8rem;
+  -moz-border-radius: .8rem;
+  -ms-border-radius: .8rem;
+  -o-border-radius: .8rem;
+}
+/* .deleteIco{
+}
+.editIco{
+  width: 3.6rem;
+  height: 3.6rem;
+} */
+ul:last-child {
+  border-bottom: none !important;
+}
+.tabled{
+  margin: 8rem 0;
+  box-shadow: 1px 20px 32px 0px rgba(175,175,175,0.75);
+  border-radius: 2rem;
+  overflow: hidden;
+  width: 80rem;
+  height: auto;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+.tabled > *{
+  width: 800px;
+  margin: 0;
+  padding: 0;
+}
+
+.subtable > img{
+  cursor: pointer;
+}
+.subtable{
+  background-color: #ff5200;
+  color: #fff;
+  height: 6rem;
+}
